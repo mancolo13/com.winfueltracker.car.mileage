@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.local_gas_station_outlined),
-          selectedIcon: const Icon(Icons.local_gas_station, color: AppTheme.primaryColor),
-          label: 'Refuel',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.build_outlined),
-          selectedIcon: const Icon(Icons.build, color: AppTheme.primaryColor),
-          label: 'Service',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.speed_outlined),
-          selectedIcon: const Icon(Icons.speed, color: AppTheme.primaryColor),
-          label: 'Efficiency',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.directions_car_outlined),
-          selectedIcon: const Icon(Icons.directions_car, color: AppTheme.primaryColor),
-          label: 'Garage',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.local_gas_station_outlined),
+            selectedIcon: const Icon(Icons.local_gas_station, color: AppTheme.primaryColor),
+            label: 'Fuel',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.speed_outlined),
+            selectedIcon: const Icon(Icons.speed, color: AppTheme.primaryColor),
+            label: 'Mileage',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.attach_money_outlined),
+            selectedIcon: const Icon(Icons.attach_money, color: AppTheme.primaryColor),
+            label: 'Trip Cost',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.build_outlined),
+            selectedIcon: const Icon(Icons.build, color: AppTheme.primaryColor),
+            label: 'Service',
+          ),
         ],
       ),
     );
